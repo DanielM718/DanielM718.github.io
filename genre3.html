@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Genre 3 • Design Documents</title>
+  <meta name="description" content="WRT 307 Correspondence Project — Genre 3: Design Documents" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Daniel Mejia Mendez</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="genre1.html">Technical Documentation</a>
+        <a href="genre2.html">Change Logs</a>
+        <a href="genre3.html">Design Documents</a>
+        <a href="reflections.html">Reflection</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h1>Genre 3 — Design Documents</h1>
+            <p class="muted">WRT 307 • Correspondence Project (Engineering Planning + Tradeoffs)</p>
+          </div>
+          <a class="btn btn-ghost" href="reflections.html">← Back to Reflections</a>
+        </div>
+
+        <section class="surface">
+          <h2>General Overview</h2>
+          <p class="body">
+            Design docs are informal planning documents used before implementation to align a team on what’s being built,
+            why it matters, and how it will work. They prioritize scope, constraints, and tradeoffs over deep technical detail.
+          </p>
+          <p class="body">
+            A strong design doc makes goals/non-goals explicit, surfaces risks early, and justifies a chosen approach while
+            acknowledging alternatives. The audience often includes engineers, technical leads, and stakeholders who need a
+            clear overview to approve or critique the plan.
+          </p>
+
+          <div class="contact-actions" style="margin-top:14px;">
+            <!-- CHANGE THIS LINK if your artifact path/name is different -->
+            <a class="btn" href="artifacts/genre3.pdf" target="_blank" rel="noopener">Open my Genre 3 artifact (PDF)</a>
+            <a class="btn btn-ghost" href="reflections.html">Return to all genres</a>
+          </div>
+        </section>
+
+        <div style="height: 18px;"></div>
+
+        <section class="surface">
+          <h2>Sources Used (Research Links)</h2>
+          <ul class="link-list">
+            <li>
+              <strong>Primary:</strong>
+              <a class="link" href="https://sdmay25-19.sd.ece.iastate.edu/sdmay25-19-DD.pdf" target="_blank" rel="noopener">
+                Iowa State University — ASIC Design Doc example (PDF)
+              </a>
+            </li>
+            <li>
+              <strong>Secondary:</strong>
+              <a class="link" href="https://www.industrialempathy.com/posts/design-docs-at-google/" target="_blank" rel="noopener">
+                Malte Ubl — Design Docs at Google
+              </a>
+            </li>
+            <li>
+              <strong>Tertiary:</strong>
+              <span class="muted">ChatGPT (used to locate/compare common design doc conventions)</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="tiny muted"><span id="year"></span> Daniel Mejia.</p>
+      <a class="tiny link" href="index.html">Home</a>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

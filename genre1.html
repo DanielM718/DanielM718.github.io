@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Genre 1 • Technical Documentation</title>
+  <meta name="description" content="WRT 307 Correspondence Project — Genre 1: Technical Documentation" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Daniel Mejia Mendez</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="genre1.html">Technical Documentation</a>
+        <a href="genre2.html">Change Logs</a>
+        <a href="genre3.html">Design Documents</a>
+        <a href="reflections.html">Reflection</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h1>Genre 1 — Technical Documentation</h1>
+            <p class="muted">WRT 307 • Correspondence Project (Computer Hardware Industry)</p>
+          </div>
+          <a class="btn btn-ghost" href="reflections.html">← Back to Reflections</a>
+        </div>
+
+        <section class="surface">
+          <h2>General Overview</h2>
+          <p class="body">
+            Technical documentation in the computer hardware industry is typically formal, highly structured, and
+            detail-oriented. It is written for engineers and developers who already have domain background, so it
+            uses industry terminology (e.g., GPIO, power rails, PCB, DAC) and prioritizes precision over tone.
+          </p>
+          <p class="body">
+            These documents are designed to be skimmable and non-linear—readers jump to the section they need—so
+            authors rely on headings, diagrams, tables, checklists, and short blocks of text to prevent ambiguity.
+          </p>
+
+          <div class="contact-actions" style="margin-top:14px;">
+            <!-- CHANGE THIS LINK if your artifact path/name is different -->
+            <a class="btn" href="artifacts/genre1.pdf" target="_blank" rel="noopener">Open my Genre 1 artifact (PDF)</a>
+            <a class="btn btn-ghost" href="reflections.html">Return to all genres</a>
+          </div>
+        </section>
+
+        <div style="height: 18px;"></div>
+
+        <section class="surface">
+          <h2>Sources Used (Research Links)</h2>
+          <ul class="link-list">
+            <li>
+              <strong>Primary:</strong>
+              <a class="link" href="https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32/esp-hardware-design-guidelines-en-master-esp32.pdf" target="_blank" rel="noopener">
+                Espressif — ESP32 Hardware Design Guidelines (PDF)
+              </a>
+            </li>
+            <li>
+              <strong>Secondary:</strong>
+              <a class="link" href="https://medium.com/slalom-build/how-to-write-documentation-that-people-will-actually-read-and-use-b26791fc1429" target="_blank" rel="noopener">
+                Hal Deranek — How to write documentation people will actually read
+              </a>
+            </li>
+            <li>
+              <strong>Tertiary:</strong>
+              <span class="muted">ChatGPT (genre overview + examples; used as a tertiary summary source)</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="tiny muted"><span id="year"></span> Daniel Mejia.</p>
+      <a class="tiny link" href="index.html">Home</a>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

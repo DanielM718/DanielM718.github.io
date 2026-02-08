@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Genre 2 • Change Logs & Revision Notes</title>
+  <meta name="description" content="WRT 307 Correspondence Project — Genre 2: Change Logs & Revision Notes" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Daniel Mejia Mendez</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="genre1.html">Technical Documentation</a>
+        <a href="genre2.html">Change Logs</a>
+        <a href="genre3.html">Design Documents</a>
+        <a href="reflections.html">Reflection</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h1>Genre 2 — Change Logs &amp; Revision Notes</h1>
+            <p class="muted">WRT 307 • Correspondence Project (Computer Hardware / Developer Workflow)</p>
+          </div>
+          <a class="btn btn-ghost" href="reflections.html">← Back to Reflections</a>
+        </div>
+
+        <section class="surface">
+          <h2>General Overview</h2>
+          <p class="body">
+            Change logs (and revision notes) are chronological records of notable updates made between versions of a
+            project. They’re built for scanning: short bullets, clear headings (Added/Changed/Fixed), and minimal fluff.
+          </p>
+          <p class="body">
+            The primary audience is typically developers/contributors (and sometimes end users), so the writing often
+            uses technical terms but doesn’t assume the reader needs deep explanation for every change—just what changed
+            and why it matters.
+          </p>
+
+          <div class="contact-actions" style="margin-top:14px;">
+            <!-- CHANGE THIS LINK if your artifact path/name is different -->
+            <a class="btn" href="artifacts/genre2.pdf" target="_blank" rel="noopener">Open my Genre 2 artifact (PDF)</a>
+            <a class="btn btn-ghost" href="reflections.html">Return to all genres</a>
+          </div>
+        </section>
+
+        <div style="height: 18px;"></div>
+
+        <section class="surface">
+          <h2>Sources Used (Research Links)</h2>
+          <ul class="link-list">
+            <li>
+              <strong>Primary:</strong>
+              <a class="link" href="https://github.com/AzuraCast/AzuraCast/blob/main/CHANGELOG.md" target="_blank" rel="noopener">
+                AzuraCast — CHANGELOG.md (GitHub)
+              </a>
+            </li>
+            <li>
+              <strong>Secondary:</strong>
+              <a class="link" href="https://keepachangelog.com/en/1.1.0/" target="_blank" rel="noopener">
+                Keep a Changelog — Best practices & structure
+              </a>
+            </li>
+            <li>
+              <strong>Tertiary:</strong>
+              <a class="link" href="https://en.wikipedia.org/wiki/Changelog" target="_blank" rel="noopener">
+                Wikipedia — Changelog overview
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="tiny muted"><span id="year"></span> Daniel Mejia.</p>
+      <a class="tiny link" href="index.html">Home</a>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
