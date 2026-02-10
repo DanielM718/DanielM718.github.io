@@ -4,8 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="dark light" />
-  <title>Daniel Mejia Mendez • Computer Engineering</title>
-  <meta name="description" content="Portfolio and resume site." />
+
+  <title>Correspondence Portfolio • Daniel Mejia Mendez</title>
+  <meta name="description" content="WRT307 correspondence portfolio featuring professional writing samples and a reflection on reader-centered writing." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +15,12 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
+<body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#">
+      <a class="brand" href="#top">
         <span class="brand-mark" aria-hidden="true"></span>
         <span class="brand-text">Daniel Mejia Mendez</span>
       </a>
@@ -30,12 +31,8 @@
       </button>
 
       <nav id="site-nav" class="site-nav" aria-label="Primary">
-        <!-- <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a> -->
-        <a href="genre1.html">Technical Documentation</a>
-        <a href="genre2.html">Change Logs</a>
-        <a href="genre3.html">Design Documents</a>
+        <a href="#about">Bio</a>
+        <a href="#samples">Writing Samples</a>
         <a href="reflections.html">Reflection</a>
         <a href="#contact" class="btn btn-small">Contact</a>
       </nav>
@@ -43,112 +40,105 @@
   </header>
 
   <main id="main">
-    <!-- HERO (parallax background) -->
+    <!-- HERO -->
     <section class="hero parallax-bg">
       <div class="container hero-inner">
         <div class="hero-copy parallax-item" data-speed="0.25">
-          <p class="eyebrow">WRT307 Correspondence Project - Professional Writing in the Computer Hardware Industry</p>
+          <p class="eyebrow">WRT 307 • Correspondence Portfolio</p>
           <h1>
-            I build efficient systems—<span class="grad">from RTL to real hardware</span>.
+            Professional writing, built for <span class="grad">real readers</span>.
           </h1>
           <p class="lead">
-            Computer Engineer specializing in digital design, FPGA development, 
-            and embedded systems. Formerly worked as a hardware design engineer 
-            at a Boston Dynamics developing RTL modules, validating FPGA designs, 
-            and integrating hardware-software systems for custom processors and communication interfaces.
+            This site presents three workplace writing samples created for WRT 307. Each sample includes a brief
+            explainer that describes what I wrote, how I wrote it, and why it reflects reader-centered professional
+            writing principles (audience, purpose, usability, clarity, and appropriate tone).
           </p>
+
           <div class="hero-actions">
-            <a class="btn" href="#projects">View Projects</a>
-            <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+            <a class="btn" href="#samples">View Writing Samples</a>
+            <a class="btn btn-ghost" href="reflections.html">Read Reflection</a>
           </div>
 
           <div class="hero-meta">
-            <a href="https://github.com/DanielM718" aria-label="GitHub">GitHub</a>
+            <span class="muted">Correspondence Portfolio</span>
             <span aria-hidden="true">•</span>
-            <a href="https://linkedin.com/in/dmejiame" aria-label="LinkedIn">LinkedIn</a>
-            <span aria-hidden="true">•</span>
-            <a href="assets/Daniel_Mejia_Mendez_Resume.pdf" aria-label="Resume">Resume (PDF)</a>
+            <a href="#samples" aria-label="Jump to Writing Samples">Writing Samples</a>
           </div>
         </div>
 
         <div class="hero-card parallax-item" data-speed="0.12">
-        <!-- Headshot -->
-        <div class="hero-headshot">
+          <div class="hero-headshot">
             <img
-            src="assets/headshot.jpg"
-            alt="Headshot of Your Name"
-            class="headshot"
-            width="220"
-            height="220"
-            loading="eager"
+              src="assets/headshot.jpg"
+              alt="Headshot of Daniel Mejia Mendez"
+              class="headshot"
+              width="220"
+              height="220"
+              loading="eager"
             />
-        </div>
+          </div>
 
-
-        <div class="card">
+          <div class="card">
             <div class="card-top">
-            <p class="card-title">At a glance</p>
+              <p class="card-title">At a glance</p>
             </div>
-            <ul class="pill-list">
-            <li>SystemVerilog / RTL</li>
-            <li>FPGA • Verification</li>
-            <li>C/C++ • Embedded</li>
-            <li>Computer Architecture</li>
-            </ul>
-            <div class="card-bottom">
-            </div>
-        </div>
-        </div>
 
+            <ul class="pill-list">
+              <li>Audience + purpose</li>
+              <li>Genre conventions</li>
+              <li>Clarity + concision</li>
+              <li>Scannable structure</li>
+            </ul>
+
+            <div class="card-bottom"></div>
+          </div>
+        </div>
       </div>
 
       <div class="hero-fade" aria-hidden="true"></div>
     </section>
 
-    <!-- ABOUT -->
+    <!-- BIO -->
     <section id="about" class="section">
       <div class="container grid-2">
         <div>
-            <h2>About</h2>
-            <p class="body">
-                My work focuses on digital system design at the intersection 
-                of hardware and software. I design and verify processors and 
-                FPGA-based systems, emphasizing clean RTL, simulation-driven verification, 
-                and real-time performance. I'm particularly interested in power-efficient 
-                architectures and hardware support for data-intensive applications.
-            </p>
-
-
+          <h2>Bio</h2>
+          <p class="body">
+            I’m a Computer Engineering student who treats writing like an engineering tool: it should make complex work
+            easier to understand, use, and trust. My approach is reader-centered—start with a clear purpose, anticipate
+            what the reader needs, choose an appropriate tone, and structure information so a busy audience can scan,
+            understand, and act confidently.
+          </p>
 
           <div class="info-tiles">
             <div class="tile">
-              <p class="tile-k">Focus</p>
-              <p class="tile-v">Power-efficient computing, digital design, embedded systems</p>
+              <p class="tile-k">What this site is</p>
+              <p class="tile-v">A correspondence portfolio demonstrating professional writing skills (not a résumé site).</p>
             </div>
             <div class="tile">
-              <p class="tile-k">Tools</p>
-              <p class="tile-v">Icarus/Verilator, FPGA toolchains, logic analyzers/oscilloscopes</p>
+              <p class="tile-k">What you’ll see</p>
+              <p class="tile-v">Three workplace genres + explainers connecting choices to reader-centered principles.</p>
             </div>
           </div>
         </div>
 
         <div class="surface parallax-item" data-speed="0.08">
-          <h3>Skills</h3>
+          <h3>Reader-centered writing focus</h3>
           <div class="skills">
             <div>
-              <p class="skills-h">Hardware</p>
+              <p class="skills-h">Rhetorical situation</p>
               <ul>
-                <li>SystemVerilog, VHDL</li>
-                <li>Pipeline design, ALU, ISA work</li>
-                <li>Timing, verification, testbenches</li>
+                <li>Audience + purpose first</li>
+                <li>Genre that fits the context</li>
+                <li>Credible, appropriate tone</li>
               </ul>
             </div>
             <div>
-              <p class="skills-h">Software</p>
+              <p class="skills-h">Usability</p>
               <ul>
-                <li>C/C++, Python</li>
-                <li>Simulation + tooling</li>
-                <li>Data pipelines / performance</li>
+                <li>Clear headings + scannable structure</li>
+                <li>Specific, actionable content</li>
+                <li>Revision for clarity + concision</li>
               </ul>
             </div>
           </div>
@@ -156,130 +146,59 @@
       </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section section-alt">
-    <div class="container">
+    <!-- WRITING SAMPLES -->
+    <section id="samples" class="section section-alt">
+      <div class="container">
         <div class="section-head">
-        <h2>Projects</h2>
+          <h2>Writing Samples</h2>
+          <p class="muted">
+            Each page includes the full text sample. Check reflections for a brief explainer describing what I wrote, how I wrote it,
+            and why it’s effective for its intended readers.
+          </p>
         </div>
 
         <div class="cards">
-        <!-- 32-bit CPU -->
-        <article class="project card">
+          <article class="project card">
             <div class="project-top">
-            <h3>32-bit Pipelined Processor</h3>
-            <p class="tag">SystemVerilog</p>
+              <h3>Technical Documentation</h3>
+              <p class="tag">Genre 1</p>
             </div>
             <p class="muted">
-            Designed and implemented a modular 32-bit pipelined processor targeting a custom ISA, with emphasis on
-            synthesizable RTL and verification-driven development.
+              A reader-first guide designed for clarity, scannability, and easy action for someone new to the task.
             </p>
-            <ul class="bullets">
-            <li>Implemented a multi-stage datapath with ALU, register file, control logic, and hazard handling</li>
-            <li>Designed a fully synthesizable 32-bit barrel shifter supporting logical shifts and rotates</li>
-            <li>Verified functionality using SystemVerilog testbenches, reference models, and waveform analysis (Icarus Verilog, Surfer)</li>
-            </ul>
             <div class="project-actions">
-            <a href="#" class="link">Code</a>
-            <a href="#" class="link">Write-up</a>
+              <a href="genre1.html" class="link">Open sample</a>
             </div>
-        </article>
+          </article>
 
-        <!-- Barnes-Hut -->
-        <article class="project card">
+          <article class="project card">
             <div class="project-top">
-            <h3>Barnes–Hut N-Body Simulation</h3>
-            <p class="tag tag-sage">C++</p>
+              <h3>Change Logs</h3>
+              <p class="tag tag-sage">Genre 2</p>
             </div>
             <p class="muted">
-            High-performance gravitational simulation using the Barnes-Hut approximation and leapfrog integration
-            to scale interactions to thousands of bodies.
+              A structured record of updates that helps readers quickly understand what changed and what to do next.
             </p>
-            <ul class="bullets">
-            <li>Implemented octree-based spatial partitioning with gravitational softening</li>
-            <li>Used second-order leapfrog integration for numerical stability and energy conservation</li>
-            <li>Designed performance-oriented data structures to reduce computational complexity</li>
-            </ul>
             <div class="project-actions">
-            <a href="#" class="link">Code</a>
-            <a href="#" class="link">Demo</a>
+              <a href="genre2.html" class="link">Open sample</a>
             </div>
-        </article>
+          </article>
 
-        <!-- CAN-FD -->
-        <article class="project card">
+          <article class="project card">
             <div class="project-top">
-            <h3>CAN-FD FPGA Communication Module</h3>
-            <p class="tag tag-rose">FPGA / VHDL</p>
+              <h3>Design Documents</h3>
+              <p class="tag tag-rose">Genre 3</p>
             </div>
             <p class="muted">
-            FPGA-based communication module developed for real-time sensor data acquisition in human-robot interaction research.
+              A decision-focused overview that makes tradeoffs visible and aligns stakeholders on the plan.
             </p>
-            <ul class="bullets">
-            <li>Developed a VHDL pipeline to process multiple analog sensor inputs and encode CAN-FD frames</li>
-            <li>Migrated data acquisition from Arduino to FPGA to reduce latency and bandwidth limitations</li>
-            <li>Integrated and validated the system using hardware-in-the-loop testing</li>
-            </ul>
             <div class="project-actions">
-            <a href="#" class="link">Overview</a>
-            <a href="#" class="link">Poster</a>
+              <a href="genre3.html" class="link">Open sample</a>
             </div>
-        </article>
+          </article>
         </div>
-    </div>
+      </div>
     </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section">
-    <div class="container">
-        <div class="section-head">
-        <h2>Experience</h2>
-        </div>
-
-        <div class="timeline">
-        <!-- Bionics Lab -->
-        <div class="timeline-item">
-            <div class="dot" aria-hidden="true"></div>
-            <div class="timeline-body">
-            <h3>Researcher • Bionics Systems &amp; Control Lab</h3>
-            <p class="muted">Dec 2023 - Present • Syracuse University</p>
-            <ul class="bullets">
-                <li>Developing FPGA-based VHDL modules to process multi-channel sensor data and encode CAN-FD transmissions</li>
-                <li>Migrated real-time data acquisition from Arduino to FPGA to reduce latency and improve throughput</li>
-                <li>Integrated FPGA systems into ongoing human-robot interaction research with interdisciplinary teams</li>
-            </ul>
-            </div>
-        </div>
-
-        <!-- Physics / Teaching -->
-        <div class="timeline-item">
-            <div class="dot" aria-hidden="true"></div>
-            <div class="timeline-body">
-            <h3>Peer Coach • Department of Physics</h3>
-            <p class="muted">Aug 2024 - Present • Syracuse University</p>
-            <ul class="bullets">
-                <li>Facilitated lab sections and recitations covering classical mechanics and electromagnetism</li>
-                <li>Worked alongside graduate TAs to reinforce problem-solving and conceptual understanding</li>
-            </ul>
-            </div>
-        </div>
-
-        <!-- AEW -->
-        <div class="timeline-item">
-            <div class="dot" aria-hidden="true"></div>
-            <div class="timeline-body">
-            <h3>Facilitator • Academic Excellence Workshop (Python)</h3>
-            <p class="muted">Aug 2025 - Dec 2025 • Syracuse University</p>
-            <ul class="bullets">
-                <li>Led weekly collaborative programming sessions for introductory Python students</li>
-                <li>Designed original problem sets emphasizing debugging, logic, and structured problem solving</li>
-            </ul>
-            </div>
-        </div>
-        </div>
-    </div>
-    </section>
-
 
     <!-- CONTACT -->
     <section id="contact" class="section section-alt">
@@ -290,8 +209,8 @@
             <p><strong>Email:</strong> danielmejia0405@gmail.com</p>
             <p><strong>Location:</strong> Syracuse, NY</p>
             <div class="contact-actions">
-              <a class="btn" href="mailto:youremail@example.com">Email me</a>
-              <a class="btn btn-ghost" href="#">Download Resume</a>
+              <a class="btn" href="mailto:danielmejia0405@gmail.com">Email me</a>
+              <a class="btn btn-ghost" href="#samples">View Writing Samples</a>
             </div>
           </div>
         </div>
@@ -299,9 +218,10 @@
         <div class="surface parallax-item" data-speed="0.06">
           <h3>Quick links</h3>
           <ul class="link-list">
-            <li><a href="https://github.com/DanielM718">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/dmejiame">LinkedIn</a></li>
-            <li><a href="assets/Daniel_Mejia_Mendez_Resume.pdf">Resume PDF</a></li>
+            <li><a href="genre1.html">Technical Documentation</a></li>
+            <li><a href="genre2.html">Change Logs</a></li>
+            <li><a href="genre3.html">Design Documents</a></li>
+            <li><a href="reflections.html">Reflection</a></li>
           </ul>
         </div>
       </div>
@@ -310,7 +230,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p class="tiny muted"> <span id="year"></span> Daniel Mejia. Built with plain HTML/CSS/JS.</p>
+      <p class="tiny muted"><span id="year"></span> Daniel Mejia. Built with plain HTML/CSS/JS.</p>
       <a class="tiny link" href="#top">Back to top</a>
     </div>
   </footer>
